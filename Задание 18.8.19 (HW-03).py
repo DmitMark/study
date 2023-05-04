@@ -2,7 +2,7 @@ num = int(input('Введите количество билетов '))
 item = 1
 price = 0
 while item <= num:
-    year = int(input('Введите возраст посетителя '))
+    year = int(input(f'Введите возраст {item} посетителя '))
     if year >= 18:
         if year < 25:
             price += 990
